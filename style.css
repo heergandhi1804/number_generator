@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color:bisque;
+    background-color: rgb(17, 2, 51);
+}
+
+#myRoll {
+    font-size: 1.7em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 25px;
+    background-color:rgb(222, 255, 244);
+    color: rgb(17, 2, 51)
+}
+
+#myLabel {
+    color: aquamarine;
+    font-size: 3.2em;
+}
+
+#myRoll:hover {
+    transform: scale(1.2);
+    transition: 0.1s;
+}
